@@ -1,0 +1,26 @@
+[0.012s] Invoking command in '/home/justin/abb_project/build/abb_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/justin/abb_project/build/abb_package -- -j12 -l12
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target abb_node[0m
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/abb_node.dir/src/abb_node.cpp.o[0m
+[4.528s] [100%] [32m[1mLinking CXX executable abb_node[0m
+[4.768s] [100%] Built target abb_node
+[4.780s] Invoked command in '/home/justin/abb_project/build/abb_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/justin/abb_project/build/abb_package -- -j12 -l12
+[4.815s] Invoking command in '/home/justin/abb_project/build/abb_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/justin/abb_project/build/abb_package
+[4.823s] -- Install configuration: ""
+[4.823s] -- Installing: /home/justin/abb_project/install/abb_package/lib/abb_package/abb_node
+[4.825s] -- Set runtime path of "/home/justin/abb_project/install/abb_package/lib/abb_package/abb_node" to ""
+[4.825s] -- Up-to-date: /home/justin/abb_project/install/abb_package/share/ament_index/resource_index/package_run_dependencies/abb_package
+[4.825s] -- Up-to-date: /home/justin/abb_project/install/abb_package/share/ament_index/resource_index/parent_prefix_path/abb_package
+[4.825s] -- Up-to-date: /home/justin/abb_project/install/abb_package/share/abb_package/environment/ament_prefix_path.sh
+[4.825s] -- Up-to-date: /home/justin/abb_project/install/abb_package/share/abb_package/environment/ament_prefix_path.dsv
+[4.825s] -- Up-to-date: /home/justin/abb_project/install/abb_package/share/abb_package/environment/path.sh
+[4.826s] -- Up-to-date: /home/justin/abb_project/install/abb_package/share/abb_package/environment/path.dsv
+[4.826s] -- Up-to-date: /home/justin/abb_project/install/abb_package/share/abb_package/local_setup.bash
+[4.826s] -- Up-to-date: /home/justin/abb_project/install/abb_package/share/abb_package/local_setup.sh
+[4.826s] -- Up-to-date: /home/justin/abb_project/install/abb_package/share/abb_package/local_setup.zsh
+[4.826s] -- Up-to-date: /home/justin/abb_project/install/abb_package/share/abb_package/local_setup.dsv
+[4.826s] -- Installing: /home/justin/abb_project/install/abb_package/share/abb_package/package.dsv
+[4.826s] -- Up-to-date: /home/justin/abb_project/install/abb_package/share/ament_index/resource_index/packages/abb_package
+[4.826s] -- Up-to-date: /home/justin/abb_project/install/abb_package/share/abb_package/cmake/abb_packageConfig.cmake
+[4.827s] -- Up-to-date: /home/justin/abb_project/install/abb_package/share/abb_package/cmake/abb_packageConfig-version.cmake
+[4.827s] -- Up-to-date: /home/justin/abb_project/install/abb_package/share/abb_package/package.xml
+[4.829s] Invoked command in '/home/justin/abb_project/build/abb_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/justin/abb_project/build/abb_package

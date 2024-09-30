@@ -1,0 +1,25 @@
+[0.013s] Invoking command in '/home/justin/abb_project/build/abb_package': CMAKE_PREFIX_PATH=/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron /usr/bin/cmake --build /home/justin/abb_project/build/abb_package -- -j12 -l12
+[0.048s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.128s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+[0.128s]   Could NOT find Python3 (missing: Interpreter)
+[0.128s] 
+[0.128s]       Reason given by package: 
+[0.128s]           Interpreter: Cannot run the interpreter "/home/justin/anaconda3/bin/python3"
+[0.128s] 
+[0.128s] Call Stack (most recent call first):
+[0.128s]   /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
+[0.128s]   /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:3180 (find_package_handle_standard_args)
+[0.128s]   /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)
+[0.129s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:37 (find_package)
+[0.129s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)
+[0.129s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.129s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.129s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.129s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.129s]   CMakeLists.txt:9 (find_package)
+[0.129s] 
+[0.129s] [0m
+[0.129s] -- Configuring incomplete, errors occurred!
+[0.129s] See also "/home/justin/abb_project/build/abb_package/CMakeFiles/CMakeOutput.log".
+[0.134s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.134s] Invoked command in '/home/justin/abb_project/build/abb_package' returned '2': CMAKE_PREFIX_PATH=/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron /usr/bin/cmake --build /home/justin/abb_project/build/abb_package -- -j12 -l12
