@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000522] (abb_package) JobQueued: {'identifier': 'abb_package', 'dependencies': OrderedDict()}
+[0.000707] (abb_package) JobStarted: {'identifier': 'abb_package'}
+[0.011568] (abb_package) JobProgress: {'identifier': 'abb_package', 'progress': 'cmake'}
+[0.012159] (abb_package) JobProgress: {'identifier': 'abb_package', 'progress': 'build'}
+[0.012782] (abb_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/justin/abb_project/build/abb_package', '--', '-j12', '-l12'], 'cwd': '/home/justin/abb_project/build/abb_package', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', ''), ('USER', 'justin'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1637'), ('XDG_SESSION_TYPE', 'x11'), ('XCURSOR_SIZE', '24'), ('KONSOLE_VERSION', '211203'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/justin'), ('CONDA_SHLVL', '1'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/justin'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('SHELL_SESSION_ID', '37045dffa1cb4b3a9445cd4ac614f288'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/justin/.gtkrc:/home/justin/.config/gtkrc'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('SYSTEMD_EXEC_PID', '1490'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/justin/abb_project/install:/home/justin/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'justin'), ('WINDOWID', '96468999'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/justin/.gtkrc-2.0:/home/justin/.config/gtkrc-2.0'), ('PATH', '/home/justin/anaconda3/bin:/home/justin/anaconda3/condabin:/opt/ros/humble/bin:/opt/ros/iron/bin:/home/justin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'breeze_cursors'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/justin/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXYNSkpA/agent.1512'), ('GSETTINGS_SCHEMA_DIR', '/home/justin/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/justin/abb_project/install/abb_package:/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron'), ('CONDA_PYTHON_EXE', '/home/justin/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('KONSOLE_DBUS_SERVICE', ':1.114'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('XDG_VTNR', '1'), ('PWD', '/home/justin/abb_project/build/abb_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/home/justin/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'), ('CONDA_EXE', '/home/justin/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/justin/ros2_ws/install/wailord_cv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('CONDA_PREFIX', '/home/justin/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/justin/abb_project/install/abb_package:/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron')]), 'shell': False}
+[0.066777] (abb_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/abb_node.dir/src/abb_node.cpp.o\x1b[0m\n'}
+[0.099664] (-) TimerEvent: {}
+[0.199961] (-) TimerEvent: {}
+[0.300252] (-) TimerEvent: {}
+[0.400543] (-) TimerEvent: {}
+[0.500848] (-) TimerEvent: {}
+[0.601269] (-) TimerEvent: {}
+[0.701594] (-) TimerEvent: {}
+[0.801881] (-) TimerEvent: {}
+[0.902219] (-) TimerEvent: {}
+[1.002628] (-) TimerEvent: {}
+[1.103144] (-) TimerEvent: {}
+[1.203640] (-) TimerEvent: {}
+[1.304122] (-) TimerEvent: {}
+[1.404464] (-) TimerEvent: {}
+[1.504819] (-) TimerEvent: {}
+[1.605160] (-) TimerEvent: {}
+[1.705478] (-) TimerEvent: {}
+[1.805769] (-) TimerEvent: {}
+[1.906019] (-) TimerEvent: {}
+[2.006347] (-) TimerEvent: {}
+[2.106633] (-) TimerEvent: {}
+[2.206965] (-) TimerEvent: {}
+[2.307356] (-) TimerEvent: {}
+[2.407673] (-) TimerEvent: {}
+[2.508095] (-) TimerEvent: {}
+[2.608451] (-) TimerEvent: {}
+[2.708790] (-) TimerEvent: {}
+[2.809271] (-) TimerEvent: {}
+[2.909552] (-) TimerEvent: {}
+[3.009850] (-) TimerEvent: {}
+[3.110304] (-) TimerEvent: {}
+[3.210584] (-) TimerEvent: {}
+[3.310880] (-) TimerEvent: {}
+[3.411227] (-) TimerEvent: {}
+[3.511583] (-) TimerEvent: {}
+[3.611918] (-) TimerEvent: {}
+[3.712276] (-) TimerEvent: {}
+[3.812607] (-) TimerEvent: {}
+[3.912924] (-) TimerEvent: {}
+[4.013329] (-) TimerEvent: {}
+[4.113707] (-) TimerEvent: {}
+[4.214028] (-) TimerEvent: {}
+[4.314334] (-) TimerEvent: {}
+[4.414606] (-) TimerEvent: {}
+[4.514886] (-) TimerEvent: {}
+[4.615299] (-) TimerEvent: {}
+[4.715687] (-) TimerEvent: {}
+[4.816088] (-) TimerEvent: {}
+[4.916376] (-) TimerEvent: {}
+[5.016647] (-) TimerEvent: {}
+[5.116920] (-) TimerEvent: {}
+[5.217188] (-) TimerEvent: {}
+[5.317478] (-) TimerEvent: {}
+[5.417747] (-) TimerEvent: {}
+[5.461764] (abb_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable abb_node\x1b[0m\n'}
+[5.517843] (-) TimerEvent: {}
+[5.618116] (-) TimerEvent: {}
+[5.693667] (abb_package) StdoutLine: {'line': b'[100%] Built target abb_node\n'}
+[5.705466] (abb_package) CommandEnded: {'returncode': 0}
+[5.718243] (-) TimerEvent: {}
+[5.724565] (abb_package) JobProgress: {'identifier': 'abb_package', 'progress': 'install'}
+[5.733178] (abb_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/justin/abb_project/build/abb_package'], 'cwd': '/home/justin/abb_project/build/abb_package', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', ''), ('USER', 'justin'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1637'), ('XDG_SESSION_TYPE', 'x11'), ('XCURSOR_SIZE', '24'), ('KONSOLE_VERSION', '211203'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/justin'), ('CONDA_SHLVL', '1'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/justin'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('SHELL_SESSION_ID', '37045dffa1cb4b3a9445cd4ac614f288'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/justin/.gtkrc:/home/justin/.config/gtkrc'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('SYSTEMD_EXEC_PID', '1490'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/justin/abb_project/install:/home/justin/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'justin'), ('WINDOWID', '96468999'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/justin/.gtkrc-2.0:/home/justin/.config/gtkrc-2.0'), ('PATH', '/home/justin/anaconda3/bin:/home/justin/anaconda3/condabin:/opt/ros/humble/bin:/opt/ros/iron/bin:/home/justin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'breeze_cursors'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/justin/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXYNSkpA/agent.1512'), ('GSETTINGS_SCHEMA_DIR', '/home/justin/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/justin/abb_project/install/abb_package:/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron'), ('CONDA_PYTHON_EXE', '/home/justin/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('KONSOLE_DBUS_SERVICE', ':1.114'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('XDG_VTNR', '1'), ('PWD', '/home/justin/abb_project/build/abb_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/home/justin/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'), ('CONDA_EXE', '/home/justin/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/justin/ros2_ws/install/wailord_cv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('CONDA_PREFIX', '/home/justin/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/justin/abb_project/install/abb_package:/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron')]), 'shell': False}
+[5.741288] (abb_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.741793] (abb_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.742112] (abb_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/justin/abb_project/install/abb_package/lib/abb_package/abb_node\n'}
+[5.742323] (abb_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/ament_index/resource_index/package_run_dependencies/abb_package\n'}
+[5.742484] (abb_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/ament_index/resource_index/parent_prefix_path/abb_package\n'}
+[5.742669] (abb_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/environment/ament_prefix_path.sh\n'}
+[5.743005] (abb_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/environment/ament_prefix_path.dsv\n'}
+[5.743218] (abb_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/environment/path.sh\n'}
+[5.743810] (abb_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/environment/path.dsv\n'}
+[5.743947] (abb_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/local_setup.bash\n'}
+[5.744101] (abb_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/local_setup.sh\n'}
+[5.744287] (abb_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/local_setup.zsh\n'}
+[5.744624] (abb_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/local_setup.dsv\n'}
+[5.744791] (abb_package) StdoutLine: {'line': b'-- Symlinking: /home/justin/abb_project/install/abb_package/share/abb_package/package.dsv\n'}
+[5.754446] (abb_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/ament_index/resource_index/packages/abb_package\n'}
+[5.754687] (abb_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/cmake/abb_packageConfig.cmake\n'}
+[5.754790] (abb_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/cmake/abb_packageConfig-version.cmake\n'}
+[5.754867] (abb_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/package.xml\n'}
+[5.756832] (abb_package) CommandEnded: {'returncode': 0}
+[5.792173] (abb_package) JobEnded: {'identifier': 'abb_package', 'rc': 0}
+[5.792893] (-) EventReactorShutdown: {}

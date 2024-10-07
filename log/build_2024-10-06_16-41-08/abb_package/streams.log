@@ -1,0 +1,49 @@
+[0.014s] Invoking command in '/home/justin/abb_project/build/abb_package': CMAKE_PREFIX_PATH=/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/justin/abb_project/build/abb_package -- -j12 -l12
+[0.058s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.183s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.198s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.235s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.238s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.247s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.263s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.283s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.334s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.337s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.477s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.554s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.591s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.693s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.693s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/justin/abb_project/src/abb_package/include>
+[0.693s] -- Configured cppcheck exclude dirs and/or files: 
+[0.694s] -- Added test 'lint_cmake' to check CMake code style
+[0.695s] -- Added test 'uncrustify' to check C / C++ code style
+[0.695s] -- Configured uncrustify additional arguments: 
+[0.695s] -- Added test 'xmllint' to check XML markup files
+[0.696s] -- Configuring done
+[0.707s] -- Generating done
+[0.709s] -- Build files have been written to: /home/justin/abb_project/build/abb_package
+[0.731s] [35m[1mConsolidate compiler generated dependencies of target abb_node[0m
+[0.746s] [ 50%] [32mBuilding CXX object CMakeFiles/abb_node.dir/src/abb_node.cpp.o[0m
+[5.429s] [100%] [32m[1mLinking CXX executable abb_node[0m
+[5.639s] [100%] Built target abb_node
+[5.650s] Invoked command in '/home/justin/abb_project/build/abb_package' returned '0': CMAKE_PREFIX_PATH=/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/justin/abb_project/build/abb_package -- -j12 -l12
+[5.678s] Invoking command in '/home/justin/abb_project/build/abb_package': CMAKE_PREFIX_PATH=/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/justin/abb_project/build/abb_package
+[5.686s] -- Install configuration: ""
+[5.686s] -- Execute custom install script
+[5.686s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/lib/abb_package/abb_node
+[5.686s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/ament_index/resource_index/package_run_dependencies/abb_package
+[5.687s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/ament_index/resource_index/parent_prefix_path/abb_package
+[5.687s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/environment/ament_prefix_path.sh
+[5.687s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/environment/ament_prefix_path.dsv
+[5.687s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/environment/path.sh
+[5.687s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/environment/path.dsv
+[5.687s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/local_setup.bash
+[5.687s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/local_setup.sh
+[5.688s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/local_setup.zsh
+[5.688s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/local_setup.dsv
+[5.688s] -- Symlinking: /home/justin/abb_project/install/abb_package/share/abb_package/package.dsv
+[5.695s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/ament_index/resource_index/packages/abb_package
+[5.696s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/cmake/abb_packageConfig.cmake
+[5.696s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/cmake/abb_packageConfig-version.cmake
+[5.696s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/package.xml
+[5.698s] Invoked command in '/home/justin/abb_project/build/abb_package' returned '0': CMAKE_PREFIX_PATH=/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/justin/abb_project/build/abb_package
