@@ -1,0 +1,46 @@
+[0.013s] Invoking command in '/home/justin/abb_project/build/abb_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/justin/abb_project/build/abb_package -- -j12 -l12
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target abb_node[0m
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/abb_node.dir/src/abb_node.cpp.o[0m
+[3.076s] [01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:[m[K In member function ‘[01m[Kvoid abbRobot::jointCallback()[m[K’:
+[3.076s] [01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:31:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kprev_x[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[3.076s]    31 |       static double [01;35m[Kprev_x[m[K = 0, prev_y = 0, prev_z = 0;
+[3.076s]       |                     [01;35m[K^~~~~~[m[K
+[3.076s] [01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:31:33:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kprev_y[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[3.076s]    31 |       static double prev_x = 0, [01;35m[Kprev_y[m[K = 0, prev_z = 0;
+[3.077s]       |                                 [01;35m[K^~~~~~[m[K
+[3.077s] [01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:31:45:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kprev_z[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[3.077s]    31 |       static double prev_x = 0, prev_y = 0, [01;35m[Kprev_z[m[K = 0;
+[3.077s]       |                                             [01;35m[K^~~~~~[m[K
+[3.077s] [01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:[m[K In member function ‘[01m[Kstd::vector<double, std::allocator<double> > abbRobot::calculateJointAngles(double, double, double)[m[K’:
+[3.077s] [01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:69:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.077s]    69 |     std::vector<double> calculateJointAngles([01;35m[Kdouble x[m[K, double y, double z) {
+[3.077s]       |                                              [01;35m[K~~~~~~~^[m[K
+[3.077s] [01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:69:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.077s]    69 |     std::vector<double> calculateJointAngles(double x, [01;35m[Kdouble y[m[K, double z) {
+[3.077s]       |                                                        [01;35m[K~~~~~~~^[m[K
+[3.077s] [01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:69:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.077s]    69 |     std::vector<double> calculateJointAngles(double x, double y, [01;35m[Kdouble z[m[K) {
+[3.078s]       |                                                                  [01;35m[K~~~~~~~^[m[K
+[5.568s] [100%] [32m[1mLinking CXX executable abb_node[0m
+[5.803s] [100%] Built target abb_node
+[5.814s] Invoked command in '/home/justin/abb_project/build/abb_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/justin/abb_project/build/abb_package -- -j12 -l12
+[5.842s] Invoking command in '/home/justin/abb_project/build/abb_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/justin/abb_project/build/abb_package
+[5.851s] -- Install configuration: ""
+[5.851s] -- Execute custom install script
+[5.852s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/lib/abb_package/abb_node
+[5.852s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/ament_index/resource_index/package_run_dependencies/abb_package
+[5.852s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/ament_index/resource_index/parent_prefix_path/abb_package
+[5.852s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/environment/ament_prefix_path.sh
+[5.852s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/environment/ament_prefix_path.dsv
+[5.853s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/environment/path.sh
+[5.853s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/environment/path.dsv
+[5.853s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/local_setup.bash
+[5.853s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/local_setup.sh
+[5.853s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/local_setup.zsh
+[5.853s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/local_setup.dsv
+[5.854s] -- Symlinking: /home/justin/abb_project/install/abb_package/share/abb_package/package.dsv
+[5.862s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/ament_index/resource_index/packages/abb_package
+[5.862s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/cmake/abb_packageConfig.cmake
+[5.862s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/cmake/abb_packageConfig-version.cmake
+[5.862s] -- Up-to-date symlink: /home/justin/abb_project/install/abb_package/share/abb_package/package.xml
+[5.865s] Invoked command in '/home/justin/abb_project/build/abb_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/justin/abb_project/build/abb_package

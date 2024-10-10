@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target abb_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/abb_node.dir/src/abb_node.cpp.o[0m
+[01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ktrac_ik/trac_ik.hpp: No such file or directory
+    3 | #include [01;31m[K<trac_ik/trac_ik.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/abb_node.dir/build.make:76: CMakeFiles/abb_node.dir/src/abb_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/abb_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

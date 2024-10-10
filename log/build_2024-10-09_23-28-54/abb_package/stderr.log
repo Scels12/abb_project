@@ -1,0 +1,4 @@
+[01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:[m[K In member function ‘[01m[Kdouble abbRobot::calculateJoint3(double, double, double)[m[K’:
+[01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:96:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   96 |     double calculateJoint3(double x, double y, [01;35m[Kdouble z[m[K) {
+      |                                                [01;35m[K~~~~~~~^[m[K

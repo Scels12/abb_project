@@ -1,0 +1,20 @@
+[01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:[m[K In member function ‘[01m[Kvoid abbRobot::jointCallback()[m[K’:
+[01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:31:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kprev_x[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   31 |       static double [01;35m[Kprev_x[m[K = 0, prev_y = 0, prev_z = 0;
+      |                     [01;35m[K^~~~~~[m[K
+[01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:31:33:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kprev_y[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   31 |       static double prev_x = 0, [01;35m[Kprev_y[m[K = 0, prev_z = 0;
+      |                                 [01;35m[K^~~~~~[m[K
+[01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:31:45:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kprev_z[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   31 |       static double prev_x = 0, prev_y = 0, [01;35m[Kprev_z[m[K = 0;
+      |                                             [01;35m[K^~~~~~[m[K
+[01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:[m[K In member function ‘[01m[Kstd::vector<double, std::allocator<double> > abbRobot::calculateJointAngles(double, double, double)[m[K’:
+[01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:69:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   69 |     std::vector<double> calculateJointAngles([01;35m[Kdouble x[m[K, double y, double z) {
+      |                                              [01;35m[K~~~~~~~^[m[K
+[01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:69:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   69 |     std::vector<double> calculateJointAngles(double x, [01;35m[Kdouble y[m[K, double z) {
+      |                                                        [01;35m[K~~~~~~~^[m[K
+[01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:69:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   69 |     std::vector<double> calculateJointAngles(double x, double y, [01;35m[Kdouble z[m[K) {
+      |                                                                  [01;35m[K~~~~~~~^[m[K

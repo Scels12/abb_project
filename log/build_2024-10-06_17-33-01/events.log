@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000223] (abb_package) JobQueued: {'identifier': 'abb_package', 'dependencies': OrderedDict()}
+[0.000592] (abb_package) JobStarted: {'identifier': 'abb_package'}
+[0.010303] (abb_package) JobProgress: {'identifier': 'abb_package', 'progress': 'cmake'}
+[0.011205] (abb_package) JobProgress: {'identifier': 'abb_package', 'progress': 'build'}
+[0.011932] (abb_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/justin/abb_project/build/abb_package', '--', '-j12', '-l12'], 'cwd': '/home/justin/abb_project/build/abb_package', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', ''), ('USER', 'justin'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1637'), ('XDG_SESSION_TYPE', 'x11'), ('XCURSOR_SIZE', '24'), ('KONSOLE_VERSION', '211203'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/justin'), ('CONDA_SHLVL', '1'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/justin'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('SHELL_SESSION_ID', '37045dffa1cb4b3a9445cd4ac614f288'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/justin/.gtkrc:/home/justin/.config/gtkrc'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('SYSTEMD_EXEC_PID', '1490'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/justin/abb_project/install:/home/justin/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'justin'), ('WINDOWID', '96468999'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/justin/.gtkrc-2.0:/home/justin/.config/gtkrc-2.0'), ('PATH', '/home/justin/anaconda3/bin:/home/justin/anaconda3/condabin:/opt/ros/humble/bin:/opt/ros/iron/bin:/home/justin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'breeze_cursors'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/justin/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXYNSkpA/agent.1512'), ('GSETTINGS_SCHEMA_DIR', '/home/justin/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/justin/abb_project/install/abb_package:/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron'), ('CONDA_PYTHON_EXE', '/home/justin/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('KONSOLE_DBUS_SERVICE', ':1.114'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('XDG_VTNR', '1'), ('PWD', '/home/justin/abb_project/build/abb_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/home/justin/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'), ('CONDA_EXE', '/home/justin/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/justin/ros2_ws/install/wailord_cv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('CONDA_PREFIX', '/home/justin/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/justin/abb_project/install/abb_package:/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron')]), 'shell': False}
+[0.068935] (abb_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target abb_node\x1b[0m\n'}
+[0.088964] (abb_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/abb_node.dir/src/abb_node.cpp.o\x1b[0m\n'}
+[0.099835] (-) TimerEvent: {}
+[0.200167] (-) TimerEvent: {}
+[0.300539] (-) TimerEvent: {}
+[0.400898] (-) TimerEvent: {}
+[0.501179] (-) TimerEvent: {}
+[0.601511] (-) TimerEvent: {}
+[0.701799] (-) TimerEvent: {}
+[0.802099] (-) TimerEvent: {}
+[0.902382] (-) TimerEvent: {}
+[1.002672] (-) TimerEvent: {}
+[1.103137] (-) TimerEvent: {}
+[1.203525] (-) TimerEvent: {}
+[1.303900] (-) TimerEvent: {}
+[1.404228] (-) TimerEvent: {}
+[1.504593] (-) TimerEvent: {}
+[1.604954] (-) TimerEvent: {}
+[1.705254] (-) TimerEvent: {}
+[1.805515] (-) TimerEvent: {}
+[1.906051] (-) TimerEvent: {}
+[2.006379] (-) TimerEvent: {}
+[2.106685] (-) TimerEvent: {}
+[2.206982] (-) TimerEvent: {}
+[2.307317] (-) TimerEvent: {}
+[2.407638] (-) TimerEvent: {}
+[2.507942] (-) TimerEvent: {}
+[2.608239] (-) TimerEvent: {}
+[2.708540] (-) TimerEvent: {}
+[2.808838] (-) TimerEvent: {}
+[2.909107] (-) TimerEvent: {}
+[3.009437] (-) TimerEvent: {}
+[3.017543] (abb_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid abbRobot::jointCallback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.017957] (abb_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:47:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::JointState_<std::allocator<void> >::_position_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::array<double, 6>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.018230] (abb_package) StderrLine: {'line': b'   47 |       joint_message.position = calculateJointAngles(x, y, z\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.018327] (abb_package) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.018428] (abb_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:72\x1b[m\x1b[K,\n'}
+[3.018535] (abb_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[3.018700] (abb_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.018811] (abb_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[3.018903] (abb_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[3.018995] (abb_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.019089] (abb_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.019184] (abb_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.019272] (abb_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:2\x1b[m\x1b[K:\n'}
+[3.019374] (abb_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/vector.tcc:198:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = double; _Alloc = std::allocator<double>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.019467] (abb_package) StderrLine: {'line': b'  198 |     \x1b[01;36m\x1b[Kvector<_Tp, _Alloc>\x1b[m\x1b[K::\n'}
+[3.019553] (abb_package) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.019672] (abb_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/vector.tcc:199:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::array<double, 6>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<double, std::allocator<double> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.019801] (abb_package) StderrLine: {'line': b'  199 |     operator=(\x1b[01;36m\x1b[Kconst vector<_Tp, _Alloc>& __x\x1b[m\x1b[K)\n'}
+[3.019898] (abb_package) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.019995] (abb_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[3.020089] (abb_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[3.020184] (abb_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.020279] (abb_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[3.020372] (abb_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[3.020466] (abb_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.020559] (abb_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.020672] (abb_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.020781] (abb_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:2\x1b[m\x1b[K:\n'}
+[3.020874] (abb_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:709:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = double; _Alloc = std::allocator<double>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.020983] (abb_package) StderrLine: {'line': b'  709 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[3.021076] (abb_package) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.021179] (abb_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:709:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::array<double, 6>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.021279] (abb_package) StderrLine: {'line': b'  709 |       operator=(\x1b[01;36m\x1b[Kvector&& __x\x1b[m\x1b[K) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[3.021370] (abb_package) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.021465] (abb_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:730:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = double; _Alloc = std::allocator<double>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.021589] (abb_package) StderrLine: {'line': b'  730 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(initializer_list<value_type> __l)\n'}
+[3.021734] (abb_package) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.021843] (abb_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:730:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::array<double, 6>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<double>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.021955] (abb_package) StderrLine: {'line': b'  730 |       operator=(\x1b[01;36m\x1b[Kinitializer_list<value_type> __l\x1b[m\x1b[K)\n'}
+[3.022063] (abb_package) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.022168] (abb_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::array<double, 6> abbRobot::calculateJointAngles(double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.022277] (abb_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:68:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.022388] (abb_package) StderrLine: {'line': b'   68 |     std::array<double, 6> calculateJointAngles(\x1b[01;35m\x1b[Kdouble x\x1b[m\x1b[K, double y, double z) {\n'}
+[3.022495] (abb_package) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[3.022621] (abb_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:68:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.022739] (abb_package) StderrLine: {'line': b'   68 |     std::array<double, 6> calculateJointAngles(double x, \x1b[01;35m\x1b[Kdouble y\x1b[m\x1b[K, double z) {\n'}
+[3.022847] (abb_package) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[3.022954] (abb_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:68:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kz\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.023073] (abb_package) StderrLine: {'line': b'   68 |     std::array<double, 6> calculateJointAngles(double x, double y, \x1b[01;35m\x1b[Kdouble z\x1b[m\x1b[K) {\n'}
+[3.023184] (abb_package) StderrLine: {'line': b'      |                                                                    \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[3.109540] (-) TimerEvent: {}
+[3.209829] (-) TimerEvent: {}
+[3.310119] (-) TimerEvent: {}
+[3.410415] (-) TimerEvent: {}
+[3.510700] (-) TimerEvent: {}
+[3.611034] (-) TimerEvent: {}
+[3.711457] (-) TimerEvent: {}
+[3.811724] (-) TimerEvent: {}
+[3.911996] (-) TimerEvent: {}
+[4.012337] (-) TimerEvent: {}
+[4.089670] (abb_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/abb_node.dir/build.make:76: CMakeFiles/abb_node.dir/src/abb_node.cpp.o] Error 1\n'}
+[4.089972] (abb_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/abb_node.dir/all] Error 2\n'}
+[4.090129] (abb_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.092273] (abb_package) CommandEnded: {'returncode': 2}
+[4.112437] (-) TimerEvent: {}
+[4.128215] (abb_package) JobEnded: {'identifier': 'abb_package', 'rc': 2}
+[4.138763] (-) EventReactorShutdown: {}

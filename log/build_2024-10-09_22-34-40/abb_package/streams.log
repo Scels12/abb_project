@@ -1,0 +1,11 @@
+[0.014s] Invoking command in '/home/justin/abb_project/build/abb_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/justin/abb_project/build/abb_package -- -j12 -l12
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target abb_node[0m
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/abb_node.dir/src/abb_node.cpp.o[0m
+[0.299s] [01m[K/home/justin/abb_project/src/abb_package/src/abb_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ktrac_ik/trac_ik.hpp: No such file or directory
+[0.299s]     3 | #include [01;31m[K<trac_ik/trac_ik.hpp>[m[K
+[0.299s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.299s] compilation terminated.
+[0.302s] gmake[2]: *** [CMakeFiles/abb_node.dir/build.make:76: CMakeFiles/abb_node.dir/src/abb_node.cpp.o] Error 1
+[0.302s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/abb_node.dir/all] Error 2
+[0.302s] gmake: *** [Makefile:146: all] Error 2
+[0.305s] Invoked command in '/home/justin/abb_project/build/abb_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/justin/ros2_ws/install/wailord_cv:/opt/ros/humble:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/justin/abb_project/build/abb_package -- -j12 -l12
